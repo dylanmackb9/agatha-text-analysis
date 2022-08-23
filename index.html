@@ -1,0 +1,92 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+
+
+<head>
+  <title>Agatha Christie: A Textual Analysis as Proof of Cognitive Decline </title>
+  <script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script> 
+  <script src="https://d3js.org/d3.v4.min.js" defer></script>
+  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src = "script.js" defer></script> 
+</head>
+
+
+<body>
+    <h1>Agatha Christie: A Textual Analysis as Proof of Cognitive Decline</h1>
+    <h3>Dylan Mack - dhm89@cornell.edu - <a href="https://github.com/dylanmackb9">Github</a></h3>
+    <div id="plot1"></div>
+    <div id="plot2"></div>
+    <div style="margin-top:500px;"> </div>
+
+    <h3 id="Claim">Claim</h3>
+
+    <p id="explan">  
+        The style of Agatha Christie's writing changed significantly after 1960 which can be seen in her use of indefinite pronouns and her overall range of vocabulary. This is theorized to be a result of cognitive decline possibly assoicated with dementia. 
+        <br>
+        <br>
+        The null hypothesis states that <strong>the frequency of indefinite words and unique vocabulary in Agatha Christie novels does not significantly change from 1920-1975.</strong> Three probability measures are used to substantiate claims on the data: One-Sample t-test, Z-score, and Chebyshev's inequality. 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        Observations on word choice in Agatha Christie novels are taken to be independent observations, as  general writing style is involved in the null hypothesis and the occurence of words do not impact the probability of occurence in another book past the influence of writing style.
+    </p>
+
+
+    
+
+
+    
+
+
+    <h3 id="chebheader"> Chebyshev's inequality</h3>
+
+
+    <p id="ttest">
+        <math style="font-family:stix" xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathsize="16px"><mi>t</mi><mo>=</mo><mfrac><mrow><mover><mi>x</mi><mo>&#xAF;</mo></mover><mo>-</mo><mi>&#x3BC;</mi></mrow><mstyle displaystyle="true"><mfrac><mi>s</mi><msqrt><mi>n</mi></msqrt></mfrac></mstyle></mfrac></mstyle></math>
+    </p>
+    <p id="zscore">
+        <math style="font-family:stix" xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathsize="16px"><mi>Z</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mo>-</mo><mi>&#x3BC;</mi></mrow><mi>&#x3C3;</mi></mfrac></mstyle></math>
+    </p>
+    <p id="chebyshev">
+        <math style="font-family:stix" xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathsize="16px"><mi>P</mi><mi>r</mi><mfenced><mrow><mfenced open="|" close="|"><mrow><mi>X</mi><mo>-</mo><mi>&#x3BC;</mi></mrow></mfenced><mo>&#x2265;</mo><mi>k</mi><mi>&#x3C3;</mi></mrow></mfenced><mo>&#xA0;</mo><mo>&#x2264;</mo><mfrac><mn>1</mn><msup><mi>k</mi><mn>2</mn></msup></mfrac></mstyle></math>
+    </p>
+
+
+    <h3 id="ttestheader"> One-Sample t-test Results with Z-scores</h3>
+
+
+    <p id="res1explan">
+        Objective is to test the expected value of a sample mean of independent observations is close to the true population mean, and use Z-Scores to meausure how many standard deviations the sample mean lies away from the population mean. 
+    </p>
+
+
+    <p id="res1">
+        <img src="hosting/data1.png" alt="Data" width="422" height="138">   <!-- 844x276 --> <!-- 464.2 151.8 -->
+    </p>
+
+    <p id="res2explan">
+        Attempting to bound the fraction of values that are a certain distance from the mean by bounding the probability that a sample from random variable X differs from the population mean.  Set k to measure and report the probability of drawing the maximal data point in the metric.
+    </p>
+
+    <p id="res2">
+        <img src="hosting/data2.png" alt="Data" width="383" height="137">   <!-- 766×274 -->
+    </p>
+
+    
+</body>
+  
+  
+
+</body>
+</html>

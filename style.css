@@ -1,0 +1,144 @@
+/*Total width of page is 1520px ?
+*/
+
+
+
+
+
+
+
+h1 {
+	text-align: center;
+
+}
+
+h3 {
+	text-align: center;
+}
+
+
+
+
+
+#plot1 {
+	position: fixed;
+	left: 30px;
+	top: 100px;
+
+    
+
+}
+
+#plot2 {
+	position: fixed;
+	left: 30px;
+	top: 523px;
+
+
+}
+
+
+#Claim {
+	position: fixed;
+	left: 1080px;
+	top: 130px;
+	margin: auto;
+
+	
+
+}
+
+
+#explan {
+	position: fixed;
+	left: 760px;
+	top: 170px;
+	width: 750px;
+	margin: auto;
+}
+
+
+#ttestheader {
+	position: fixed;
+	left: 950px;
+	top: 480px;
+	margin: auto;
+}
+
+#chebheader {
+	position: fixed;
+	left: 1017px;
+	top: 700px;
+	margin: auto;
+}
+
+
+#res1 {
+	position: fixed;
+	left: 1100px;
+	top: 530px;
+	margin: auto;
+}
+
+#res1explan {
+	position: fixed;
+	left: 760px;
+	top: 540px;
+	width: 280px;
+	margin: auto;
+}
+
+#res2 {
+	position: fixed;
+	left: 1100px;
+	top: 750px;
+	width: 280px;
+	margin: auto;
+}
+
+
+#res2explan {
+	position: fixed;
+	left: 760px;
+	top: 750px;
+	width: 280px;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+#ttest {
+	position: fixed;
+	left: 820px;
+	top: 330px;
+	margin: auto;
+	
+}
+
+#zscore {
+	position: fixed;
+	left: 1080px;
+	top: 330px;
+	margin: auto;
+	
+}
+
+#chebyshev {
+	position: fixed;
+	left: 1300px;
+	top: 330px;
+	margin: auto;
+	
+}
+
+
+
+
+
+
+
