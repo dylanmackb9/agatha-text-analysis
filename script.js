@@ -183,7 +183,7 @@ function makePlotly2(divy, t, x, y1, y2, y3) {
 
 
 
-    //https://plot.ly/javascript/configuration-options/
+    
     let config = { 
         responsive: true,
         scrollZoom: true,
