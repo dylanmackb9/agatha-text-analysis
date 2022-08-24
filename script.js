@@ -2,10 +2,10 @@
 
 
 const CSV1 =
-    "https://raw.githubusercontent.com/dylanmackb9/data/main/data/freq.csv";
+    "https://raw.githubusercontent.com/dylanmackb9/agatha-text-analysis/main/hosting/Data/freq.csv";
 
 const CSV2 = 
-    "https://raw.githubusercontent.com/dylanmackb9/data/main/data/unique.csv"
+    "https://raw.githubusercontent.com/dylanmackb9/agatha-text-analysis/main/hosting/Data/unique.csv"
 
 
 
