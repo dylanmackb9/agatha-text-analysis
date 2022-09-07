@@ -19,8 +19,8 @@ All 67 of Christie's novels written under her name were manually compiled as pdf
 Word and sentence tokenization through python'3 Natural Language Toolkit (NLTK) library was used to create json files representing 
 word and sentence tokenized versions of each book. 
 
-Concordances were created of each book, containing each unique word occurence written and the number of times it appears. 
-NLTK part of speech (POS) tagging was also used to create tagged conordance dictionaries, which match each unique word occurence to its POS. 
+Concordances were created of each book, containing each unique word occurrence written and the number of times it appears. 
+NLTK part of speech (POS) tagging was also used to create tagged concordance dictionaries, which match each unique word occurence to its POS. 
 Tagged concordance dictionaries were then used to make unique word concordances without stop words and proper noun (NNP) concordances. 
 
 **The following Metrics were created:**
