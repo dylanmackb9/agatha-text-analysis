@@ -3,7 +3,7 @@
 [Data Visualization](https://dylan-mack.herokuapp.com/)
 
 
-Agatha Christie (1890 - 1976) was an English writer, known as thee best-selling fiction writer of all time having sold more than 
+Agatha Christie (1890 - 1976) was an English writer, known as the best-selling fiction writer of all time having sold more than 
 two billion copies of her detective mystery novels.
 
 Towards the end of her life, Christie's health began to decline which can be seen in some of her later works which were received poorly. Some
