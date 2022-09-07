@@ -7,11 +7,11 @@ Agatha Christie (1890 - 1976) was an English writer, known as the best-selling f
 two billion copies of her detective mystery novels.
 
 Towards the end of her life, Christie's health began to decline which can be seen in some of her later works which were received poorly. Some
-critics refered to "Elephants Can Remember" as one of her 'execrable last novels' in which Christie "loses her grip altogether". 
+critics referred to "Elephants Can Remember" as one of her 'execrable last novels' in which Christie "loses her grip altogether". 
 Computer analysis of Christie's writing has reveal that should might have developed a form of dementia, possibly Alzheimer's disease, at this time.
 
  
-A textualize analysis was done on Agatha Christie's novels to further deterime if her writing style changed in a significant way during 
+A textual analysis was done on Agatha Christie's novels to further determine if her writing style changed in a significant way during 
 her active writing years (1920 - 1975) which might be indicative of cognitive decline. 
  
  
