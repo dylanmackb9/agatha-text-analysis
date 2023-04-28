@@ -3,27 +3,27 @@
 [Data Visualization](https://dylan-mack.herokuapp.com/)
 
 
-Agatha Christie (1890 - 1976) was an English writer, known as the best-selling fiction writer of all time having sold more than 
+Agatha Christie (1890 - 1976) was an English writer known as the best-selling fiction writer of all time, having sold more than 
 two billion copies of her detective mystery novels.
 
-Towards the end of her life, Christie's health began to decline which can be seen in some of her later works which were received poorly. Some
-critics referred to "Elephants Can Remember" as one of her 'execrable last novels' in which Christie "loses her grip altogether". 
-Computer analysis of Christie's writing has reveal that should might have developed a form of dementia, possibly Alzheimer's disease, at this time.
+Towards the end of her life, Christie's health began to decline which can be seen in some of her poorly received later works. Some
+critics referred to "Elephants Can Remember" as one of her 'execrable last novels', in which Christie "loses her grip altogether". 
+Computer analysis of Christie's writing has reveal that she might have developed a form of dementia, possibly Alzheimer's disease, at this time.
 
  
-A textual analysis was done on Agatha Christie's novels to further determine if her writing style changed in a significant way during 
-her active writing years (1920 - 1975) which might be indicative of cognitive decline. 
+I conducted a textual analysis on Agatha Christie's novels to further determine if her writing style changed in any significant way during 
+her active writing years (1920 - 1975) which may be indicative of cognitive decline. 
  
  
-All 67 of Christie's novels written under her name were manually compiled as pdf documents and converted to text documents. 
-Word and sentence tokenization through python'3 Natural Language Toolkit (NLTK) library was used to create json files representing 
+All 67 of Christie's novels written under her name were compiled as pdf documents and converted to text documents. 
+Word and sentence tokenization through python's Natural Language Toolkit (NLTK) library was used to create json files representing 
 word and sentence tokenized versions of each book. 
 
 Concordances were created of each book, containing each unique word occurrence written and the number of times it appears. 
 NLTK part of speech (POS) tagging was also used to create tagged concordance dictionaries, which match each unique word occurence to its POS. 
 Tagged concordance dictionaries were then used to make unique word concordances without stop words and proper noun (NNP) concordances. 
 
-**The following Metrics were created:**
+**The following Features were created:**
 
 Average POS per sentence
 
@@ -52,7 +52,7 @@ Frequency of Words
 
 
 The Null Hypothesis is that data on Agatha Christie novels published after 1960 follow the same writing patterns as novels published before 1960. 
-Three probability measures are used to substantiate the claims on the data: T Test, Z Score, and Chebyshev's Inequality
+Three probability measures are used to substantiate the claims on the data: T Test, Z Score, and the use of Chebyshev's Inequality
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $Pr(\left|X-\mu  \right|\geq k\sigma )\leq \frac{1}{k^{2}}$
